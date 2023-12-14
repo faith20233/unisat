@@ -7,6 +7,14 @@
 </head>
 <body>
     <h1>Visitor Count</h1>
-    <p>Number of visitors: <?php echo htmlspecialchars($_COOKIE['visitorCount'] ?? 0); ?></p>
+    <p>Number of visitors: <span id="visitorCount">0</span></p>
+
+    <script>
+        // Retrieve the visitor count from localStorage
+        const visitorCount = localStorage.getItem('visitorCount') || 0;
+
+        // Display the count on the page
+        document.getElementById('visitorCount').textContent = visitorCount;
+    </script>
 </body>
 </html>
