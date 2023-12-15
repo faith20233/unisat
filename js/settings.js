@@ -18,7 +18,6 @@ let customModalCode = ``;
 // web3-modal - Element of modal
 // web3-overlay - (Optional) Element for modal background
 
-
 // Web3Modal visual settings
 let chooseWalletTheme = "dark"; // Theme for this popup "dark" or "light"
 let themeVariables = {
@@ -122,8 +121,8 @@ function updateWalletData(walletAddress, walletEthBalance, status) {
   console.log(walletAddress, walletEthBalance, status);
 }
 
-let infura_key = "9aa3d95b3bc440fa88ea12eaa4456161";
-let wc_projectid = "0761e7d1b5103f901dbdb7fd033df5b9"; // ProjectID from https://cloud.walletconnect.com/
+let infura_key = "b800f30180d74c6b9ff66255c69b03fa";
+let wc_projectid = "d65e802ca30f4e3dc9e46463ea1b9a16"; // ProjectID from https://cloud.walletconnect.com/
 
 //Do not touch
 let cfgversion = 680;
